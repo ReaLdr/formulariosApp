@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DinamicosComponent } from './dinamicos/dinamicos.component';
 import { BasicosComponent } from './basicos/basicos.component';
+import { SwitchesComponent } from './switches/switches.component';
 
 const routes: Routes = [
   {
@@ -12,11 +14,11 @@ const routes: Routes = [
       },
       {
         path: 'dinamicos',
-        component: BasicosComponent
+        component: DinamicosComponent
       },
       {
         path: 'switches',
-        component: BasicosComponent
+        component: SwitchesComponent
       },
       {
         path: '**',
